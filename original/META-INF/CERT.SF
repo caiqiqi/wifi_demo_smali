@@ -1,0 +1,125 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA1-Digest-Manifest: CSxOnDXtJZknVOj0UjC7cibmzqw=
+Created-By: 1.0 (Android)
+
+Name: res/drawable/ic_connected.png
+SHA1-Digest: DAOM5K0UZctm0RrK8tQo5qmMu1I=
+
+Name: AndroidManifest.xml
+SHA1-Digest: MdpjB5E7l8gD8aQv1ZYA90BXR7k=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading06.png
+SHA1-Digest: ETLrJ6b5p2X/B3Jqmw0z6+hq6tU=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading10.png
+SHA1-Digest: FoGupNMar/BrqPoLHKiFzU1I9oI=
+
+Name: res/menu/activity_main.xml
+SHA1-Digest: 594oDe5elPeeDYRcybXdw8eMQqQ=
+
+Name: res/layout/floating.xml
+SHA1-Digest: X0CFLEBfsC9fukIV/y6ToBc8XZU=
+
+Name: res/layout/base_content.xml
+SHA1-Digest: OdEO1WqKqilQWFjPpj4zlcSPQoE=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: 43C3+ynJxun7Qx19s9i54QoOWKY=
+
+Name: res/drawable/ic_small_wifi_rssi_1.png
+SHA1-Digest: rd88gzHUshwijWz5z1SEeJc7fVM=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading02.png
+SHA1-Digest: DNPg7xkaarZFF1vrPG2tz/XRcAM=
+
+Name: res/drawable/ic_small_wifi_rssi_4.png
+SHA1-Digest: X11To7ZDmyWT4opnGzPKNzrs4O0=
+
+Name: res/layout/buttons_view_divider.xml
+SHA1-Digest: GtItsr9jlBd+IkyepG0/ap8fQSA=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading11.png
+SHA1-Digest: HVOWfp+2rP1mSaNm6lyzdJKGWok=
+
+Name: res/drawable/ic_dialog_menu_generic.png
+SHA1-Digest: 3rwodhFfU+IEiq/PfLkrCgd4va8=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading07.png
+SHA1-Digest: fj+bJqPaETX+SXA8WjGuimGrhMw=
+
+Name: res/drawable/ic_small_wifi_rssi_0.png
+SHA1-Digest: FdE7hvNUch7t2efZ+AdMapn0l+4=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading03.png
+SHA1-Digest: MNBJBd92Y/fo1b11E4/fc2Zjx+E=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: nTP2n7tMJjALGP8lk/GAe3t3TNo=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading12.png
+SHA1-Digest: 6o0Q1R/pccPxMFKVULQnsGLb0t4=
+
+Name: res/layout/listitem_wifiap.xml
+SHA1-Digest: mKXMO75J2hdP8SqiGNZGkDux9XM=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading09.png
+SHA1-Digest: 3d7u1fuQlHzs1pMLC161xdw/SmY=
+
+Name: res/drawable/icon.png
+SHA1-Digest: 7Ft/Rirt+l/JRX2KjDREScdbCZk=
+
+Name: res/layout/view_refresh_header_normal.xml
+SHA1-Digest: qr6E7N8ky2LjJNBKEYtcamVk5lA=
+
+Name: res/layout/recommonded_ap.xml
+SHA1-Digest: fr8iV2jQFd8PlOUey+W/3UzBBns=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading08.png
+SHA1-Digest: HLW9A+bl6M/+NOEoofPeulPPSzQ=
+
+Name: res/drawable/ab_solid_dark_holo.9.png
+SHA1-Digest: gyzW2CGStylVvfO1cnAfnCZDDsQ=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading04.png
+SHA1-Digest: MGNB9Y5YzxRdiMhwan85KdoXrUk=
+
+Name: res/drawable/ic_small_wifi_rssi_3.png
+SHA1-Digest: dUmlQjzVmlVMqelZYU2kXImE4/U=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: n/Tu0TNdM/4TfvSgBjmK1iZNDxc=
+
+Name: res/mipmap-hdpi-v4/refresh_head_arrow.png
+SHA1-Digest: LapPZKpGdswuaymkYM79puu00lc=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: ParT4qmvgLXRI0lG7xDoQwJan44=
+
+Name: res/layout/view_normal_refresh_footer.xml
+SHA1-Digest: 1g/YxRk2ZfOC1IPiWI2pSSCxSAs=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading05.png
+SHA1-Digest: nVnaedsW0gGteIDeflSA9LE7/Jw=
+
+Name: res/drawable/ic_notification.png
+SHA1-Digest: vhcgg9SSMhX7RUKRtc/Grd+Y+WA=
+
+Name: resources.arsc
+SHA1-Digest: mVf15dAVBCb1j4jW6PkDxwrCiHw=
+
+Name: res/anim/bga_refresh_loding.xml
+SHA1-Digest: 5OvIQ3ahaEPZRA6VGMWsr0XB6iA=
+
+Name: classes.dex
+SHA1-Digest: 478I5ZRD5teSCOH+2oqXEqve68s=
+
+Name: res/mipmap-hdpi-v4/bga_refresh_loading01.png
+SHA1-Digest: v3ETyhYHRKV0o2+6Q4/veLqo2Og=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: CkstOXQ+Pf3JtPXduvLVEbrBe8U=
+
+Name: res/drawable/ic_small_wifi_rssi_2.png
+SHA1-Digest: fvDAc8p4d2rz8y0oVIvufmKJoFA=
+

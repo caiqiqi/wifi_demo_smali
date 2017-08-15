@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="5.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/Status" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_status" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/Status_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_connected" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/Speed" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_link_speed" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/LinkSpeed_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/Frequency" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/frequency" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/Frequency_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/signal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/signal_strength" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/SignalStrength_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/Security" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/Security_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/MacAddress" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mac_address" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/MacAddress_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/IPAddress" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ip_address" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/IPAddress_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/Netmask" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/netmask" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/Netmask_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/Gateway" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gateway" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/Gateway_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/DNS1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dns1" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/DNS1_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/DNS2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dns2" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/DNS2_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/CrrntConnecsCnt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/crrntConnecsCnt" style="@style/textAppearanceBaseContent" />
+        <TextView android:textStyle="bold" android:id="@id/CrrntConnecsCnt_TextView" android:paddingLeft="5.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/Password" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/Password_TextView" android:paddingTop="10.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_type_passphrase" style="@style/textAppearanceBaseContent" />
+        <com.farproc.wifi.connecter.ChangingAwareEditText android:id="@id/Password_EditText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" />
+        <CheckBox android:id="@id/ShowPassword_CheckBox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_show_password" style="@style/textAppearanceBaseContent" />
+    </LinearLayout>
+</LinearLayout>

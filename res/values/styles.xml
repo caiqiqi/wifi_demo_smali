@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PlatformDialog" parent="@android:style/Theme.Dialog" />
+    <style name="textAppearanceBaseContent" parent="@android:style/TextAppearance.Small.Inverse" />
+</resources>
