@@ -4,13 +4,14 @@
 
 
 # static fields
+# 所以其实不管你把这些成员放在什么位置，编译器都会把它们放在一起的
 .field private static final BSSID_ANY:Ljava/lang/String; = "any"
 
-.field public static final ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+.field public static final sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
-.field private static final MAX_PRIORITY:I = 0x1869f
+.field private static final MAX_PRIORITY:I = 0x1869f  # 10进制是 99999
 
-.field private static final TAG:Ljava/lang/String; = "Wifi Connecter"
+.field private static final TAG:Ljava/lang/String; = "Wifi Collector"
 
 
 # direct methods
@@ -23,7 +24,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sput-object v0, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
     return-void
 .end method
@@ -48,9 +49,9 @@
 
     .prologue
     .line 26
-    sget-object v1, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v1, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
-    sget-object v2, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v2, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
     invoke-virtual {v2, p2}, Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;->getWifiConfigurationSecurity(Landroid/net/wifi/WifiConfiguration;)Ljava/lang/String;
 
@@ -133,9 +134,9 @@
 
     .line 173
     .local v0, "config":Landroid/net/wifi/WifiConfiguration;
-    sget-object v5, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v5, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
-    sget-object v6, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v6, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
     invoke-virtual {v6, v0}, Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;->getWifiConfigurationSecurity(Landroid/net/wifi/WifiConfiguration;)Ljava/lang/String;
 
@@ -200,7 +201,7 @@
     const/4 v5, 0x0
 
     .line 80
-    sget-object v7, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v7, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
     invoke-virtual {v7, p2}, Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;->getWifiConfigurationSecurity(Landroid/net/wifi/WifiConfiguration;)Ljava/lang/String;
 
@@ -342,7 +343,7 @@
     const/4 v4, 0x0
 
     .line 41
-    sget-object v5, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v5, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
     invoke-virtual {v5, p2}, Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;->getScanResultSecurity(Landroid/net/wifi/ScanResult;)Ljava/lang/String;
 
@@ -350,7 +351,7 @@
 
     .line 43
     .local v3, "security":Ljava/lang/String;
-    sget-object v5, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v5, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
     invoke-virtual {v5, v3}, Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;->isOpenNetwork(Ljava/lang/String;)Z
 
@@ -383,7 +384,7 @@
     iput-object v5, v0, Landroid/net/wifi/WifiConfiguration;->BSSID:Ljava/lang/String;
 
     .line 50
-    sget-object v5, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v5, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
     invoke-virtual {v5, v0, v3, p3}, Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;->setupSecurity(Landroid/net/wifi/WifiConfiguration;Ljava/lang/String;Ljava/lang/String;)V
 
@@ -633,7 +634,7 @@
     if-nez p2, :cond_2
 
     .line 226
-    sget-object v6, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v6, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
     invoke-virtual {v6, p1}, Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;->getScanResultSecurity(Landroid/net/wifi/ScanResult;)Ljava/lang/String;
 
@@ -697,7 +698,7 @@
 
     .line 234
     :cond_4
-    sget-object v7, Lcom/caiqiqi/wifi_demo/collector/Wifi;->ConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
+    sget-object v7, Lcom/caiqiqi/wifi_demo/collector/Wifi;->sConfigSec:Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;
 
     invoke-virtual {v7, v1}, Lcom/caiqiqi/wifi_demo/collector/ConfigurationSecurities;->getWifiConfigurationSecurity(Landroid/net/wifi/WifiConfiguration;)Ljava/lang/String;
 
@@ -937,6 +938,7 @@
 .method private static sortByPriority(Ljava/util/List;)V
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
+    # 泛型反编译之后成这个样子了吗？
         value = {
             "(",
             "Ljava/util/List",
